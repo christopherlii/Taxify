@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Taxify</title>
+    <meta name="title" content="Taxify" />
+    <meta name="description" content="Website for Taxify" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" type="text/css" href="home.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img
+          src="logo.png"
+          width="74"
+          height="24"
+          alt="Taxify home"
+          class="logo-light"
+        />
+
+        <img
+            src="logoblue.png"
+            width="74"
+            height="24"
+            alt="Taxify home"
+            class="logo-dark"
+          />
+      </a>
+
+      <p class="navbar-link" style="font-size: x-large;">Taxify</p>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="home.html" class="logo">
+            <img
+              src="logo.png"
+              width="74"
+              height="24"
+              alt="Taxify home"
+            />
+          </a>
+
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="home.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="features.html" class="navbar-link">Features</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:taxifyofficial@gmail.com" class="contact-link"
+            >taxifyofficial@gmail.com</a
+          >
+
+        </div>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://twitter.com/TaxifyOfficial" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/taxifyofficial/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCGvdgwynAQh78gII9fTdq0A" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary">Get Started</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+    <main>
+        <!-- 
+        - #HERO
+      -->
+      <section class="section hero has-bg-image" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">The Features We Use And Our Process In More Detail</h1>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="articles">
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="supabase-visualization.webp" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>1. Supabase</h2>
+              <p>
+                Contains list of all relevant tax codes as well as 
+                other information in which the generative AI considers 
+                along with the inputs provided by the users.
+              </p>
+              
+            </div>
+          </div>
+        </article>
+
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="map.jpeg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>2. Embedded Maps</h2>
+              <p>
+                Uses embedded maps for specific tax types in order
+                to locate other similar situations. We can then 
+                derive the best possible tax management from there.
+              </p>
+              
+            </div>
+          </div>
+        </article>
+        <article>
+      
+          <div class="article-wrapper">
+            <figure>
+              <img src="llm.webp" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>3. Large Language Models</h2>
+              <p>
+                Our generative AI will consult all the information that 
+                both the user and we provide, and detail multiple 
+                multi-year plans for our customers to choose from.
+              </p>
+              
+            </div>
+          </div>
+      </section>
+
+
+
+
+       
+
+        <section class="about" aria-labelledby="about-label">
+          <div class="container" id="faq-container">
+            <div>
+              <h2 class="h2 section-title">
+                Frequently Asked Questions
+              </h2>
+            </div>
+
+            <div class="about-content">
+              <ul>
+                <li class="about-item">
+                  <div class="accordion-card expanded" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <span class="span h5">How does Taxify create strategies for smaller businesses?</span>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                        Our generative AI revolutionizes the way
+                         smaller businesses exploit tax codes. By leveraging 
+                         large embedded maps, our platform 
+                         analyzes vast amounts of data, including tax laws, 
+                         regulations, and industry-specific information. 
+                         It then generates personalized recommendations based
+                          on your business's unique circumstances. 
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <span class="span h5">How does Taxify protect sensitive information?</span>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                        At our core, we prioritize privacy and take the
+                         security of your business tax information seriously.
+                          We adhere to industry 
+                           best practices and comply with relevant data 
+                           protection regulations.  Your privacy and the security of 
+                            your business data are our top priorities.
+                    </p>
+                  </div>
+                </li>
+
+                <li class="about-item">
+                  <div class="accordion-card" data-accordion>
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon
+                          name="chevron-down-outline"
+                          aria-hidden="true"
+                          class="down"
+                        ></ion-icon>
+
+                        <spna class="span h5">Is this Taxify suitable for businesses in all industries?</spna>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                        Yes, Taxify caters to businesses across 
+                        various industries. Whether you operate in retail, 
+                          manufacturing, services, or any other industry, our
+                           platform offers industry-specific insights and 
+                           recommendations to help push your business in 
+                           the right direction.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURE
+      -->
+
+        <!-- 
+        - #CTA
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+      <div class="footer-brand">
+        <a href="home.html" class="logo">
+          <img
+            src="logo.png"
+            width="100"
+            height="24"
+            alt="Taxify home"
+          />
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 Taxify. <br />
+          All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://twitter.com/TaxifyOfficial" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/taxifyofficial/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCGvdgwynAQh78gII9fTdq0A" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="newsletter">
+          <li>
+              <p class="h4 footer-list-title"> Join Our Shortlist! </p>
+              <p>Enter Your Email Below For Updates On The Latest News And Information On Our Product!</p>
+              <form name="submit-to-google-sheet">
+                  <input id="footer-email" name="email" type="email" placeholder="Your Email" required>
+                  <button class="join-btn" id="msg" type="submit">Join</button>
+              </form>
+
+          </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            10012 New York, New York, United States
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:taxifyofficial@gmail.com" class="footer-link"
+            >taxifyofficial@gmail.com</a
+          >
+        </li>
+
+        
+      </ul>
+
+      <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">Our Story</a>
+          </li>
+
+          <li>
+            <a href="features.html" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </li>
+
+          
+        </ul>
+    </div>
+  </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="home.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbykvrMxi3mcsWQnPKX0R7Lbf8oOgNECMBVuu3AoO0ZgEAR5ofbYkpIBWohi7_sOXE-p/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Thanks For Joining!"
+                setTimeout(function() {
+                    msg.internalHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+  </body>
+</html>

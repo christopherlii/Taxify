@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Taxify</title>
+    <meta name="title" content="Taxify" />
+    <meta name="description" content="Website for Taxify" />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" type="text/css" href="home.css" />
+
+    <!-- 
+    - preload images
+  --></head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="logo.png"
+            width="74"
+            height="24"
+            alt="Taxify home"
+            class="logo-light"
+          />
+
+          <img
+            src="logoblue.png"
+            width="74"
+            height="24"
+            alt="Taxify home"
+            class="logo-dark"
+          />
+        </a>
+
+        <p class="navbar-link" style="font-size: x-large">Taxify</p>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="home.html" class="logo">
+              <img src="logo.png" width="74" height="24" alt="Taxify home" />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="home.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="about.html" class="navbar-link">About</a>
+            </li>
+
+            <li>
+              <a href="features.html" class="navbar-link">Features</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:taxifyofficial@gmail.com" class="contact-link"
+              >taxifyofficial@gmail.com</a
+            >
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://twitter.com/TaxifyOfficial" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/taxifyofficial/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCGvdgwynAQh78gII9fTdq0A"
+                class="social-link"
+              >
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+        <section class="section hero has-bg-image" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Our Story</h1>
+            </div>
+          </div>
+        </section>
+
+        <section class="section hero-about has-bg-image" aria-label="home">
+          <div class="about-container">
+            <div class="container">
+              <div class="hero-about-content">
+                <p class="hero-about-text">
+                  Taxify was started as a solution for smaller businesses that
+                  struggle to afford certified public accountants, and as a
+                  result suffer from a lack of information that they could have
+                  been taking advantage of.
+                  <br />
+                  <br />
+                  Akhil possesses expertise with startups as well as larger
+                  companies, providing a precise understanding of the problem.
+                  Christopher has experience in software development and an
+                  interest in Artificial Intelligence. The two took inspiration
+                  from softwares such as QuickBooks by Intuit, and realized that
+                  these softwares do not provide information on codes and
+                  loopholes in their tax management structures. Although some
+                  softwares do have chatbots, a critical issue is that they are
+                  not precise or detailed enough to handle decisions with
+                  accuracy, leaving many unaware of a potential to save money
+                  that would be crucial towards their lives or businesses.
+                  <br />
+                  <br />
+                  Taxify aims to optimize entire industries. In the future, we
+                  hope to create solutions that clear many companies' biggest
+                  hurdles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURE
+      -->
+
+        <!-- 
+        - #CTA
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="home.html" class="logo">
+            <img src="logo.png" width="100" height="24" alt="Taxify home" />
+          </a>
+
+          <p class="footer-text">
+            &copy; 2023 Taxify. <br />
+            All rights reserved.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://twitter.com/TaxifyOfficial" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/taxifyofficial/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCGvdgwynAQh78gII9fTdq0A"
+                class="social-link"
+              >
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="newsletter">
+          <li>
+            <p class="h4 footer-list-title">Join Our Shortlist!</p>
+            <p>
+              Enter Your Email Below For Updates On The Latest News And
+              Information On Our Product!
+            </p>
+            <form name="submit-to-google-sheet">
+              <input
+                id="footer-email"
+                name="email"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+              <button class="join-btn" id="msg" type="submit">Join</button>
+            </form>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in Touch</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              10012 New York, New York, United States
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:taxifyofficial@gmail.com" class="footer-link"
+              >taxifyofficial@gmail.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="about.html" class="footer-link">Our Story</a>
+          </li>
+
+          <li>
+            <a href="features.html" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="home.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbykvrMxi3mcsWQnPKX0R7Lbf8oOgNECMBVuu3AoO0ZgEAR5ofbYkpIBWohi7_sOXE-p/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Thanks For Joining!";
+            setTimeout(function () {
+              msg.internalHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
